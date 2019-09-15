@@ -15,9 +15,9 @@ if (isset($data['no_of_players'])) {
 		echo $response;
 		exit;
 	}
-	//car strength
-	$suit = array("2", "3", "4", "5", "6", "7", "8", "9", "X", "J", "Q", "K", "A");
 	//suit of cards
+	$suit = array("2", "3", "4", "5", "6", "7", "8", "9", "X", "J", "Q", "K", "A");
+	//strength of cards
 	$strength = array("C-", "D-", "H-", "S-");
 
 	//inlcude class and create card deck
